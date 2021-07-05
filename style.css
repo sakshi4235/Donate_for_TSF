@@ -292,6 +292,9 @@ footer{
         width: 100%;
         margin-left: unset;
       }
+      .custom_height p{
+        text-align:center;
+        padding-left: unset;}
 }
 @media screen and (max-width: 550px){
     header{
@@ -305,6 +308,7 @@ footer{
         margin-right: 1rem;
     }
     .slide{
-        height: 12rem;
+        width: 130%;
+        height: 15rem;
     }
  } 
